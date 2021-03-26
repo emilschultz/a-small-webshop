@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html id="top" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/cart.css">
+    <script src="./index.js" defer></script>
+    <title>Old Tools Supplies Webshop</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <a href="#top" accesskey=“1“ id="home">OLD TOOL SUPPLIES</a>
+        <a id="cart-nav" href="#cart-section">CART <span class="cart-counter"></span></a>
+    </header>
+    <main>
+        <!--HERO-->
+        <article id="hero">
+            <a href="#products">Welcome to Old Tools Supplies Webshop. <br/> Have a look around.</a>
+        </article>
+        
+        <!--PRODUKTER FRA ARRAY-->
+        <h1 class="main-heading">Products</h1>
+
+        <section id="products"></section>  
+
+        <!--CART-->
+        <h1 class="main-heading">Cart</h1>
+
+        <section id="cart-section">
+            <!--CART KATEGORIER-->
+            <article class="cart-row">
+                <h2 class="cart-item cart-divider">Item</h2>
+                <h2 class="cart-price cart-divider">Price</h2>
+                <h2 class="cart-quantity cart-divider">Quantity</h2>
+                <h2 class="cart-total cart-divider">Total</h2>
+            </article>
+            <!--PRODUKT TILFØJER TIL CART-->
+            <div class="cart-item-added"></div>
+            <!--TOTAL SUM AF HELE KURVEN-->
+            <div class="showTotalValueSum">                
+                <h2>Cart Total</h2>
+                <h2 class="cart-total-sum"></h2>
+            </div>
+
+        </section>
+    
+    </main>
+</body>
+</html>

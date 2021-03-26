@@ -1,0 +1,124 @@
+
+.cart-heading {
+    margin: 10rem 0rem 5rem 3.5rem;
+    font-size: 3rem;
+}
+
+#cart-section {
+    width: 95vw;
+    margin: auto;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    border: solid 0.1rem white;
+    display: block;
+}
+
+.cart-item .cart-price .cart-quantity .cart-total .cart-sum {
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: white;
+}
+   
+.cart-divider {
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1rem solid white;
+    margin: 2rem 1.5rem 2rem 2rem;
+    padding-bottom: 2rem;
+}
+
+.cart-row {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.each-row-title {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.new-item-in-cart{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    border-bottom-style: none;
+}  
+
+.cart-sum  h1{
+    margin-right: 10rem;
+}
+
+.cart-item {
+    width: 40%;
+}
+
+.cart-price {
+    width: 20%;
+}
+
+.cart-quantity {
+    width: 30%;
+}
+
+.cart-total {
+    width: 20%;
+}
+
+.cart-sum {
+    height: 10rem;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10rem;
+    color: white;
+    font-size: 1.2rem;
+    border: 0.1rem solid white;
+}
+
+.cart-item-title {
+    color: white;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.in-cart-image {
+    width: 7.5rem;
+    height: auto;
+}
+
+.showTotalValueSum {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid white;
+    margin: 10rem 12rem 10rem 12rem;
+    padding-bottom: 2rem;
+}
+
+.btn-remove {
+    width: 7rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    border: 0.1rem solid white;
+    transition: ease-in 0.1s;
+    margin-left: 2.2rem;
+}
+
+.btn-remove:hover {
+    background-color: magenta;
+    color: white;
+    border: 0.1rem solid white;
+    transition: ease-out 0.1s;
+    font-weight: 900;
+}
+
+.btn-remove:focus {
+    outline: none;
+}
+
+.cart-total-sum {
+    font-size: 1.2rem;
+}
